@@ -67,26 +67,6 @@
       "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20me%20interesa%20la%20Creaci%C3%B3n%20de%20una%20Landing%20Page"
     },
     {
-      "badge": "Éxito Profesional",
-      "category": "curriculums",
-      "iconClass": "fas fa-file-invoice",
-      "title": "Creación de Hojas de Vida Optimizadas con IA",
-      "description": "Diseño y redacción estratégica de tu currículum adaptado con palabras clave precisas para superar los sistemas automatizados de reclutamiento (ATS) e IA.",
-      "price": "Servicio Digital",
-      "rating": "5.0",
-      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20quiero%20una%20Hoja%20de%20Vida%20optimizada%20con%20IA"
-    },
-    {
-      "badge": "Presencia Web",
-      "category": "curriculums",
-      "iconClass": "fas fa-globe",
-      "title": "Publicación de HV Web con Portafolio",
-      "description": "Despliegue de tu perfil profesional en internet. Una hoja de vida interactiva y moderna con sección de portafolio para destacar tus mejores proyectos.",
-      "price": "Desarrollo",
-      "rating": "5.0",
-      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20solicito%20informaci%C3%B3n%20para%20Publicaci%C3%B3n%20de%20HV%20Web%20con%20Portafolio"
-    },
-    {
   "badge": "Éxito Profesional",
   "category": "curriculums",
   "iconClass": "fas fa-file-invoice",
@@ -94,7 +74,7 @@
   "description": "Diseño y redacción estratégica de tu currículum adaptado con palabras clave precisas para superar los sistemas automatizados de reclutamiento (ATS) e IA.",
   "price": "Servicio Digital",
   "rating": "5.0",
-  "link": "curriculum.html" 
+  "link": "/curriculum.html" 
     },
     {
       "badge": "Core Networking",
