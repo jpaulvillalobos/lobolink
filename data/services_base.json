@@ -1,0 +1,180 @@
+{
+  "services_info": {
+    "brand": "LoboLink Services",
+    "currency": "COP",
+    "main_contact": "+573017737163",
+    "last_update": "2026"
+  },
+  "services": [
+    {
+      "badge": "Seguridad Avanzada",
+      "category": "camaras",
+      "iconClass": "fas fa-camera",
+      "title": "Instalación de Cámaras Exteriores e Interiores",
+      "description": "Montaje profesional de sistemas de videovigilancia CCTV para tu hogar o negocio. Cobertura perimetral estratégica sin puntos ciegos.",
+      "price": "A convenir",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20solicito%20cotizaci%C3%B3n%20para%20Instalaci%C3%B3n%20de%20C%C3%A1maras"
+    },
+    {
+      "badge": "Monitoreo 24/7",
+      "category": "camaras",
+      "iconClass": "fas fa-video",
+      "title": "Configuración y Soporte a DVRs",
+      "description": "Configuración de almacenamiento, respaldo en la nube y habilitación de acceso remoto para visualizar tus cámaras en tiempo real desde tu celular.",
+      "price": "Soporte Técnico",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20necesito%20Soporte%20o%20Configuraci%C3%B3n%20de%20DVR"
+    },
+    {
+      "badge": "Optimización TI",
+      "category": "servidores",
+      "iconClass": "fas fa-cubes",
+      "title": "Virtualización de Máquinas y Sistemas",
+      "description": "Configuración de entornos virtuales eficientes (VMware, Proxmox, Hyper-V) para maximizar el uso de tu hardware y reducir costos operativos.",
+      "price": "Consultoría",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20solicito%20informaci%C3%B3n%20sobre%20Virtualizaci%C3%B3n"
+    },
+    {
+      "badge": "Infraestructura Física",
+      "category": "servidores",
+      "iconClass": "fas fa-server",
+      "title": "Instalación y Configuración de Servidores Físicos",
+      "description": "Montaje en rack, cableado interno, instalación de sistemas operativos de servidor (Windows Server / Linux) y aprovisionamiento de arreglos RAID seguros.",
+      "price": "Especializado",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20solicito%20cotizaci%C3%B3n%20para%20Instalaci%C3%B3n%20de%20Servidores%20F%C3%ADsicos"
+    },
+    {
+      "badge": "Telefonía IP",
+      "category": "servidores",
+      "iconClass": "fas fa-headset",
+      "title": "Implementación de Servidores de Telefonía VoIP",
+      "description": "Montaje y despliegue de centrales telefónicas basadas en IP (Asterisk, Issabel, 3CX) para llamadas corporativas fluidas, sistemas IVR y reportes detallados.",
+      "price": "Solución TI",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20solicito%20informaci%C3%B3n%20sobre%20Servidores%20de%20Telefon%C3%ADa%20VOIP"
+    },
+    {
+      "badge": "E-Commerce & Marcas",
+      "category": "paginas-web",
+      "iconClass": "fas fa-laptop-code",
+      "title": "Creación de Landing Pages Corporativas",
+      "description": "Diseño y desarrollo de páginas de aterrizaje optimizadas para la conversión. Estructuras modernas, responsivas y veloces para captar clientes.",
+      "price": "Cotización Digital",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20me%20interesa%20la%20Creaci%C3%B3n%20de%20una%20Landing%20Page"
+    },
+    {
+      "badge": "Éxito Profesional",
+      "category": "curriculums",
+      "iconClass": "fas fa-file-invoice",
+      "title": "Creación de Hojas de Vida Optimizadas con IA",
+      "description": "Diseño y redacción estratégica de tu currículum adaptado con palabras clave precisas para superar los sistemas automatizados de reclutamiento (ATS) e IA.",
+      "price": "Servicio Digital",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20quiero%20una%20Hoja%20de%20Vida%20optimizada%20con%20IA"
+    },
+    {
+      "badge": "Presencia Web",
+      "category": "curriculums",
+      "iconClass": "fas fa-globe",
+      "title": "Publicación de HV Web con Portafolio",
+      "description": "Despliegue de tu perfil profesional en internet. Una hoja de vida interactiva y moderna con sección de portafolio para destacar tus mejores proyectos.",
+      "price": "Desarrollo",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20solicito%20informaci%C3%B3n%20para%20Publicaci%C3%B3n%20de%20HV%20Web%20con%20Portafolio"
+    },
+    {
+      "badge": "Filtro Asegurado",
+      "category": "curriculums",
+      "iconClass": "fas fa-brain",
+      "title": "Análisis de HV con Inteligencia Artificial",
+      "description": "Auditamos tu currículum actual utilizando herramientas avanzadas de IA. Detectamos fallas de lectura, optimizamos el perfil y mejoramos el impacto laboral.",
+      "price": "Evaluación",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20solicito%20un%20An%C3%A1lisis%20de%20mi%20HV%20con%20IA"
+    },
+    {
+      "badge": "Core Networking",
+      "category": "consultoria",
+      "iconClass": "fas fa-network-wired",
+      "title": "Configuración de Equipos CISCO, Juniper y Huawei",
+      "description": "Administración avanzada de routers y switches corporativos. Enrutamiento, VLANs, segmentación de tráfico y políticas globales de red.",
+      "price": "Especializado",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20requiero%20Configuraci%C3%B3n%20de%20equipos%20de%20red%20(Cisco/Juniper/Huawei)"
+    },
+    {
+      "badge": "Hacking Ético",
+      "category": "consultoria",
+      "iconClass": "fas fa-user-shield",
+      "title": "Ciberseguridad Avanzada con Kali Linux",
+      "description": "Pruebas de penetración (Pentesting), análisis preventivo de vulnerabilidades y auditorías de seguridad informática para blindar tus datos.",
+      "price": "Auditoría TI",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20solicito%20una%20consultor%C3%ADa%20de%20Ciberseguridad"
+    },
+    {
+      "badge": "Seguridad Perimetral",
+      "category": "consultoria",
+      "iconClass": "fas fa-shield-halved",
+      "title": "Configuración y Soporte a Firewalls",
+      "description": "Implementación de políticas de acceso, túneles VPN seguros, balanceo de cargas y mitigación de amenazas directas a la red empresarial.",
+      "price": "Soporte TI",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20necesito%20Soporte/Configuraci%C3%B3n%20de%20Firewalls"
+    },
+    {
+      "badge": "Hardware & Software",
+      "category": "soporte",
+      "iconClass": "fas fa-desktop",
+      "title": "Soporte Técnico a Computadores",
+      "description": "Mantenimiento preventivo, correctivo, optimización de sistemas operativos, eliminación de virus y actualización de componentes para PC y Laptops.",
+      "price": "Técnico",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20solicito%20Soporte%20T%C3%A9cnico%20para%20Computadores"
+    },
+    {
+      "badge": "Conectividad Estable",
+      "category": "soporte",
+      "iconClass": "fas fa-wifi",
+      "title": "Soporte y Optimización de Redes",
+      "description": "Diagnóstico de problemas de conectividad, optimización de redes WiFi residenciales o comerciales y soluciones de cableado estructurado.",
+      "price": "Técnico",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20solicito%20Soporte%20a%20Redes"
+    },
+    {
+      "badge": "Telecomunicaciones",
+      "category": "soporte",
+      "iconClass": "fas fa-phone-volume",
+      "title": "Soporte a Plantas Telefónicas",
+      "description": "Instalación, mantenimiento preventivo y correctivo de sistemas de telefonía empresarial análoga y digital.",
+      "price": "Mantenimiento",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20necesito%20soporte%20para%20Plantas%20Telef%C3%B3nicas"
+    },
+    {
+      "badge": "Mantenimiento Locativo",
+      "category": "soporte",
+      "iconClass": "fas fa-bolt",
+      "title": "Trabajos Técnicos de Electricidad",
+      "description": "Revisión de cortos circuitos, instalación de iluminación LED, tomacorrientes, interruptores y adecuación segura de tableros eléctricos residenciales o comerciales.",
+      "price": "Servicio Técnico",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20necesito%20un%20servicio%20de%20Electricidad%20en%20Suba"
+    },
+    {
+      "badge": "Acabados & Hogar",
+      "category": "soporte",
+      "iconClass": "fas fa-paint-roller",
+      "title": "Pintura, Resanes e Instalación de Soportes para TV",
+      "description": "Servicios locativos finos: eliminación de humedades, aplicación de pintura interior/exterior y montaje seguro en pared de soportes de TV, repisas o cuadros.",
+      "price": "Servicio Técnico",
+      "rating": "5.0",
+      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20solicito%20cotizaci%C3%B3n%20para%20trabajos%20de%20Pintura/Instalaciones"
+    }
+  ]
+}

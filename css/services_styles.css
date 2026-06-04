@@ -1,0 +1,524 @@
+/* ==========================================================================
+   1. VARIABLES Y CONFIGURACIÓN GLOBAL (LoboLink Services)
+   ========================================================================== */
+:root {
+    /* Paleta de colores LoboLink Services */
+    --bg-dark-it: #04070a;         /* Fondo ultra oscuro especializado */
+    --bg-surface-it: #0a1017;      /* Superficie de tarjetas e infraestructura */
+    --bg-surface-hover: #111a26;   /* Hover de las tarjetas */
+    --accent-orange: #ff6600;      /* Naranja brillante LoboLink Services */
+    --accent-orange-glow: rgba(255, 102, 0, 0.2);
+    
+    /* Colores complementarios del ecosistema */
+    --cyan-shop: #00bfff;
+    --green-agency: #4ade17;
+    
+    /* Tipografías y legibilidad */
+    --text-primary: #f1f5f9;       /* Slate 100 para textos principales */
+    --text-secondary: #94a3b8;     /* Slate 400 para descripciones técnicas */
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace; /* Para detalles de sistemas y datos */
+    
+    /* Ajustes estructurales */
+    --radius-it: 10px;
+    --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-dark-it);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* utilidades */
+.text-gradient-orange {
+    background: linear-gradient(135deg, #ffffff 40%, var(--accent-orange) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services-badge {
+    display: inline-block;
+    background-color: rgba(255, 102, 0, 0.08);
+    border: 1px solid var(--accent-orange);
+    color: var(--accent-orange);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   2. HEADER & NAVEGACIÓN
+   ========================================================================== */
+.services-header {
+    background-color: rgba(4, 7, 10, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 14px 0;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-logo {
+    height: 52px;
+    object-fit: contain;
+    transition: var(--transition-smooth);
+}
+
+.services-logo:hover {
+    filter: drop-shadow(0 0 12px var(--accent-orange));
+}
+
+.services-nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: var(--transition-smooth);
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--accent-orange);
+}
+
+.btn-back-ecosystem {
+    background-color: transparent;
+    color: var(--text-primary);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: var(--radius-it);
+    font-weight: 600;
+    font-size: 0.85rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition-smooth);
+}
+
+.btn-back-ecosystem:hover {
+    border-color: var(--accent-orange);
+    color: var(--accent-orange);
+    background-color: rgba(255, 102, 0, 0.02);
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.1);
+}
+
+/* ==========================================================================
+   3. HERO DE SERVICIOS
+   ========================================================================== */
+.services-hero {
+    padding: 100px 0;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 48px;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 3.4rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+}
+
+.hero-content p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 36px;
+    max-width: 560px;
+}
+
+.hero-cta {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-services-primary, .btn-services-secondary {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: var(--radius-it);
+    text-decoration: none;
+    font-weight: 700;
+    transition: var(--transition-smooth);
+}
+
+.btn-services-primary {
+    background-color: var(--accent-orange);
+    color: #ffffff;
+    box-shadow: 0 4px 15px rgba(255, 102, 0, 0.3);
+}
+
+.btn-services-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 22px rgba(255, 102, 0, 0.45);
+}
+
+.btn-services-secondary {
+    background-color: rgba(255, 255, 255, 0.02);
+    color: var(--text-primary);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.btn-services-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+    border-color: var(--text-secondary);
+    transform: translateY(-2px);
+}
+
+.services-floating-logo {
+    max-height: 360px;
+    margin: 0 auto;
+    filter: drop-shadow(0 0 30px rgba(255, 102, 0, 0.12));
+    animation: techFloat 6s ease-in-out infinite;
+}
+
+@keyframes techFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* ==========================================================================
+   4. ESTRUCTURA DE CATÁLOGO DINÁMICO (Solutions)
+   ========================================================================== */
+.solutions-section {
+    padding: 80px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.section-title-wrapper {
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.section-title {
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.section-subtitle {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.services-grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 30px;
+}
+
+.services-loading {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 50px 0;
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+}
+
+.services-loading i {
+    font-size: 2.2rem;
+    color: var(--accent-orange);
+    margin-bottom: 16px;
+}
+
+/* Tarjetas técnicas de soluciones (Inyectadas por JS) */
+.solution-it-card {
+    background-color: var(--bg-surface-it);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+    padding: 40px 32px;
+    border-radius: var(--radius-it);
+    display: flex;
+    flex-direction: column;
+    transition: var(--transition-smooth);
+}
+
+.solution-it-card:hover {
+    transform: translateY(-4px);
+    background-color: var(--bg-surface-hover);
+    border-color: rgba(255, 102, 0, 0.25);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4), inset 0 0 10px var(--accent-orange-glow);
+}
+
+.solution-it-icon-wrapper {
+    width: 56px;
+    height: 56px;
+    background-color: rgba(255, 102, 0, 0.05);
+    border: 1px solid rgba(255, 102, 0, 0.15);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: var(--accent-orange);
+    margin-bottom: 24px;
+    transition: var(--transition-smooth);
+}
+
+.solution-it-card:hover .solution-it-icon-wrapper {
+    background-color: var(--accent-orange);
+    color: #ffffff;
+    box-shadow: 0 0 14px var(--accent-orange);
+}
+
+.solution-it-card h3 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.solution-it-card p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    flex-grow: 1;
+    margin-bottom: 24px;
+}
+
+.solution-tag-tech {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 4px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    align-self: flex-start;
+}
+
+/* ==========================================================================
+   5. SECCIÓN METODOLOGÍA (Process)
+   ========================================================================== */
+.process-section {
+    padding: 90px 0;
+    background-color: rgba(255, 255, 255, 0.01);
+    border-top: 1px solid rgba(255, 255, 255, 0.02);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.process-steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 32px;
+}
+
+.step-card {
+    background-color: rgba(4, 7, 10, 0.5);
+    border-left: 3px solid rgba(255, 102, 0, 0.2);
+    padding: 32px;
+    border-radius: 0 var(--radius-it) var(--radius-it) 0;
+    transition: var(--transition-smooth);
+}
+
+.step-card:hover {
+    border-left-color: var(--accent-orange);
+    background-color: var(--bg-surface-it);
+}
+
+.step-number {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--accent-orange);
+    margin-bottom: 12px;
+}
+
+.step-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.step-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* ==========================================================================
+   6. FOOTER
+   ========================================================================== */
+.services-footer {
+    background-color: #020406;
+    padding: 60px 0 20px 0;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+    height: 45px;
+    margin-bottom: 14px;
+}
+
+.footer-brand p {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.footer-links h4, .footer-status h4 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+    letter-spacing: 0.5px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition-smooth);
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot.cyan { background-color: var(--cyan-shop); }
+.dot.orange { background-color: var(--accent-orange); }
+.dot.green { background-color: var(--green-agency); }
+
+.footer-links a.active-services {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#services-api-status {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+    background-color: var(--bg-surface-it);
+    padding: 10px 14px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.status-icon-orange {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--accent-orange);
+    box-shadow: 0 0 6px var(--accent-orange);
+}
+
+.pulse-orange {
+    animation: statusPulseOrange 2s infinite;
+}
+
+@keyframes statusPulseOrange {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 102, 0, 0.5); }
+    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(255, 102, 0, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 102, 0, 0); }
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.02);
+    padding-top: 20px;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+/* ==========================================================================
+   7. RESPONSIVE DESIGN
+   ========================================================================== */
+@media (max-width: 968px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 32px;
+    }
+    .hero-content p {
+        margin: 0 auto 30px auto;
+    }
+    .hero-cta {
+        justify-content: center;
+    }
+    .services-floating-logo {
+        max-height: 250px;
+    }
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+}
+
+@media (max-width: 640px) {
+    .services-nav {
+        display: none; /* Reservado para el menú móvil */
+    }
+    .hero-content h1 {
+        font-size: 2.4rem;
+    }
+    .hero-cta {
+        flex-direction: column;
+    }
+    .btn-services-primary, .btn-services-secondary {
+        width: 100%;
+        text-align: center;
+    }
+}

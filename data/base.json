@@ -1,0 +1,91 @@
+{
+  "agency_info": {
+    "name": "LoboLink Agency",
+    "status": "connected",
+    "currency": "COP",
+    "last_update": "2026"
+  },
+  "services": [
+    {
+      "id": "srv_01",
+      "icon": "fa-solid fa-code",
+      "title": "Desarrollo Web Ágil",
+      "description": "Páginas web programadas a medida con tecnología moderna, ultra rápidas y optimizadas para Google sin costos ocultos de servidores."
+    },
+    {
+      "id": "srv_02",
+      "icon": "fa-solid fa-robot",
+      "title": "Contenido Local con IA",
+      "description": "Posicionamos tu local en la mente de tus vecinos. Automatización de contenido frecuente para Instagram y TikTok adaptado a tu barrio."
+    },
+    {
+      "id": "srv_03",
+      "icon": "fa-solid fa-chart-line",
+      "title": "Anuncios Locales (Ads)",
+      "description": "Pauta digital hiperlocalizada para que la gente que vive cerca de tu negocio te descubra y te compre directamente."
+    },
+    {
+      "id": "srv_04",
+      "icon": "fa-solid fa-share-nodes",
+      "title": "Integración con APIs",
+      "description": "Conectamos tu web con WhatsApp Business, sistemas de mensajería y formularios inteligentes para que los clientes te contacten en un clic."
+    }
+  ],
+  "plans": [
+    {
+      "id": "plan_inicial",
+      "name": "Lobo Inicial",
+      "price": "790.000",
+      "period": "mes",
+      "description": "Perfecto para locales comerciales que necesitan empezar a existir en internet y redes.",
+      "featured": false,
+      "features": [
+        "Página Web de Lanzamiento (One-Page)",
+        "Alojamiento Web de alta velocidad incluido",
+        "Manejo de 1 Red Social (Instagram o TikTok)",
+        "3 a 5 publicaciones semanales (Diseño + IA)",
+        "Estrategia de Tráfico Orgánico Local",
+        "Mantenimiento técnico de la web",
+        "Contrato mínimo de 6 meses"
+      ],
+      "cta_text": "Activar Mi Local"
+    },
+    {
+      "id": "plan_growth",
+      "name": "Lobo Growth",
+      "price": "1.390.000",
+      "period": "mes",
+      "description": "Diseñado para atraer clientes de tu zona todos los días en automático.",
+      "featured": true,
+      "badge_text": "EL MÁS RECOMENDADO",
+      "features": [
+        "Web Multi-página (Inicio, Servicios, Galería)",
+        "Integración de Formularios vía API a tu correo/WhatsApp",
+        "Manejo de 2 Redes Sociales en simultáneo",
+        "1 a 2 contenidos diarios (Videos/Reels e Imágenes)",
+        "Campañas de Anuncios Locales (Meta o TikTok Ads)",
+        "Soporte y actualizaciones técnicas prioritarias",
+        "Inversión en publicidad pagada por el cliente"
+      ],
+      "cta_text": "Impulsar Mi Negocio"
+    },
+    {
+      "id": "plan_alfa",
+      "name": "Lobo Alfa",
+      "price": "2.490.000",
+      "period": "mes",
+      "description": "Para locales que requieren un sistema técnico a medida (Reservas, Catálogos dinámicos).",
+      "featured": false,
+      "features": [
+        "Desarrollo Web con Base de Datos (SQL)",
+        "Panel de administración básico para el dueño",
+        "Integración de APIs complejas (Pasarelas de pago/Pedidos)",
+        "Manejo completo de Redes y Pauta Avanzada",
+        "Monitoreo técnico contra caídas",
+        "Costo mensual de base de datos no incluido (~$5 USD)",
+        "Estrategia conjunta para eventos o promociones"
+      ],
+      "cta_text": "Cotizar Mi Proyecto"
+    }
+  ]
+}

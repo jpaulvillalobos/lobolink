@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoboLink Shop | Multiplica tus Habilidades Digitales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/shop_styles.css">
+</head>
+<body>
+
+    <header class="shop-header">
+        <div class="container header-flex">
+            <a href="#" class="logo-brand">
+                <img src="/images/logo_shop.png" alt="LoboLink Shop Logo" class="shop-logo">
+            </a>
+            <nav class="shop-nav">
+                <ul>
+                    <li><a href="#cursos" class="nav-link active">Cursos</a></li>
+                    <li><a href="#ebooks" class="nav-link">E-books</a></li>
+                    <li><a href="#beneficios" class="nav-link">¿Por qué LoboLink?</a></li>
+                    <li><a href="index.html" class="btn-back-ecosystem"><i class="fa-solid fa-arrow-left"></i> Volver a Agencia</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="shop-hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="shop-badge">CONOCIMIENTO BAJO DEMANDA</span>
+                <h1>Aprende a dominar el <span class="text-gradient-cyan">Entorno Digital</span></h1>
+                <p>Accede a nuestros cursos y recursos optimizados en Hotmart. Aprende tráfico orgánico, creación de contenido con IA y las habilidades técnicas que hoy demandan los negocios locales.</p>
+                <div class="hero-cta">
+                    <a href="#cursos" class="btn-shop-primary">Explorar Cursos</a>
+                    <a href="#beneficios" class="btn-shop-secondary">Garantía LoboLink</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="/images/logo_shop.png" alt="LoboLink Shop" class="shop-floating-logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="filter-section">
+        <div class="container filter-flex">
+            <button class="filter-btn active" data-category="all">Todos los productos</button>
+            <button class="filter-btn" data-category="cursos">Cursos en Video</button>
+            <button class="filter-btn" data-category="recursos">Plantillas y E-books</button>
+        </div>
+    </section>
+
+    <section id="cursos" class="products-section">
+        <div class="container">
+            <div id="products-container" class="products-grid">
+                <div class="shop-loading">
+                    <i class="fa-solid fa-circle-notch fa-spin"></i>
+                    <p>Sincronizando infoproductos con Hotmart...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="benefits-section">
+        <div class="container benefits-grid">
+            <div class="benefit-card">
+                <i class="fa-brands fa-hotjar benefit-icon"></i>
+                <h3>Respaldo Hotmart</h3>
+                <p>Pagos 100% seguros y acceso inmediato a la plataforma educativa desde cualquier dispositivo.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-shield-halved benefit-icon"></i>
+                <h3>Garantía de 7 Días</h3>
+                <p>¿No es lo que esperabas? Te devolvemos el 100% de tu dinero sin preguntas ni complicaciones.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-infinity benefit-icon"></i>
+                <h3>Acceso de por Vida</h3>
+                <p>Aprende a tu propio ritmo. Un solo pago te da acceso ilimitado y a todas las actualizaciones futuras.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="shop-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="/images/logo_shop.png" alt="LoboLink Shop" class="footer-logo">
+                <p>Tu evolución digital comienza aquí.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Otras Filiales</h4>
+                <ul>
+                    <li><a href="shop.html" class="active-shop"><span class="dot cyan"></span> LoboLink Shop</a></li>
+                    <li><a href="services.html"><span class="dot orange"></span> LoboLink Services</a></li>
+                    <li><a href="index.html"><span class="dot green"></span> LoboLink Agency</a></li>
+                </ul>
+            </div>
+            <div class="footer-status">
+                <h4>Estado del Catálogo</h4>
+                <p id="shop-api-status"><span class="status-icon pulse-cyan"></span> Leyendo local: shop_base.json</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 LoboLink Shop. Infoproductos distribuidos de forma segura mediante Hotmart.</p>
+        </div>
+    </footer>
+
+    <script src="js/shop_scripts.js"></script>
+</body>
+</html>

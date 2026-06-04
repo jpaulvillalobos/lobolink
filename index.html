@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoboLink Agency | Impulso Digital con ADN Técnico</title>
+    <!-- Google Fonts para un estilo moderno y tecnológico -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Iconos nativos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Estilos de la Agencia -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- NAV PRINCIPAL (Conexión del Ecosistema) -->
+    <header class="main-header">
+        <div class="container header-flex">
+            <a href="#" class="logo-brand">
+                <img src="/images/logo_agency.png" alt="LoboLink Agency Logo" class="main-logo">
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#planes" class="nav-link">Planes</a></li>
+                    <li><a href="#contacto" class="btn-nav">Cazar Clientes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="inicio" class="hero-section">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge">MARKETING + CÓDIGO + IA</span>
+                <h1>Escala tu negocio con <span class="text-gradient">Estrategia e IA</span></h1>
+                <p>No somos la clásica agencia creativa que no sabe de tecnología. Desarrollamos tu web a medida, automatizamos tus contenidos con IA y dominamos el tráfico pago para multiplicar tus ventas.</p>
+                <div class="hero-cta">
+                    <a href="#planes" class="btn-primary">Ver Planes Recurrentes</a>
+                    <a href="#servicios" class="btn-secondary">Nuestros Superpoderes</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="/images/logo_agency.png" alt="LoboLink Agency" class="hero-glitch-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE SERVICIOS (Consumida dinámicamente desde base.json) -->
+    <section id="servicios" class="services-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Nuestras Soluciones Técnicas</h2>
+                <p class="section-subtitle">Combinamos el crecimiento orgánico con infraestructura robusta.</p>
+            </div>
+            <!-- El JS inyectará las tarjetas de servicios aquí -->
+            <div id="services-container" class="services-grid">
+                <div class="loading-spinner">Cargando servicios del ecosistema...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE PLANES / SUSCRIPCIÓN (Consumida dinámicamente desde base.json) -->
+    <section id="planes" class="pricing-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Planes Mensuales Sin Fricción</h2>
+                <p class="section-subtitle">Tu página web incluida en el fee. Escalabilidad técnica garantizada por contrato.</p>
+            </div>
+            <!-- El JS inyectará los planes de precios aquí -->
+            <div id="pricing-container" class="pricing-grid">
+                <div class="loading-spinner">Sincronizando tarifas con la base de datos...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER (Ecosistema Global LoboLink) -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="/images/logo_agency.png" alt="LoboLink" class="footer-logo">
+                <p>Conecta | Protege | Evoluciona</p>
+            </div>
+            <div class="footer-links">
+                <h4>Filiales del Ecosistema</h4>
+                <ul>
+                    <li><a href="shop.html" class="link-shop"><span class="dot cyan"></span> LoboLink Shop (Hotmart)</a></li>
+                    <li><a href="services.html" class="link-services"><span class="dot orange"></span> LoboLink Services</a></li>
+                    <li><a href="index.html" class="link-agency active-link"><span class="dot green"></span> LoboLink Agency</a></li>
+                </ul>
+            </div>
+            <div class="footer-status">
+                <h4>Conectividad técnica</h4>
+                <p id="api-status"><span class="status-icon pulse"></span> Leyendo datos desde local: base.json</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 LoboLink Agency. Desarrollado con código limpio a medida. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Lógica de control y consumo de datos -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>

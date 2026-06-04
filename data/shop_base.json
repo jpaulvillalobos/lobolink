@@ -1,0 +1,142 @@
+{
+  "shop_info": {
+    "brand": "LoboLink Shop",
+    "currency": "COP",
+    "provider": "Hotmart",
+    "last_update": "2026"
+  },
+  "products": [
+    {
+      "id": 1,
+      "title": "Redes: La Guía Definitiva",
+      "description": "Una guía completa paso a paso que te acompañará durante el proceso de instalación, optimización y aseguramiento de una red de datos doméstica.",
+      "category": "recursos",
+      "badge": "Guía PDF de Ingeniería",
+      "iconClass": "fas fa-network-wired",
+      "price": "17.000",
+      "rating": "4.9",
+      "link": "https://go.hotmart.com/V106059958W?dp=1"
+    },
+    {
+      "id": 2,
+      "title": "Crea Landing Pages con IA sin saber programar",
+      "description": "Descubre cómo generar páginas web profesionales completas en minutos usando prompts simples. Incluye ejemplos reales, plantillas y recursos listos para aplicar.",
+      "category": "recursos",
+      "badge": "Guía Práctica",
+      "iconClass": "fas fa-robot",
+      "price": "116.454",
+      "rating": "5.0",
+      "link": "https://go.hotmart.com/T104969987R?dp=1"
+    },
+    {
+      "id": 3,
+      "title": "MasterClass: Mecánica para Motos desde Cero",
+      "description": "Aprende de forma práctica y precisa el mantenimiento preventivo y correctivo de tu moto. Diseñado para ahorrar costos y resolver fallas mecánicas por ti mismo.",
+      "category": "cursos",
+      "badge": "Curso en Video",
+      "iconClass": "fas fa-motorcycle",
+      "price": "467.334",
+      "rating": "4.8",
+      "link": "https://go.hotmart.com/J105046895T?dp=1"
+    },
+    {
+      "id": 4,
+      "title": "Programa Integral: Principios de Computación",
+      "description": "Domina el manejo fluido de tu computador, mantente seguro contra hackers en internet, aprende a utilizar las principales herramientas online y potencia tu productividad laboral.",
+      "category": "cursos",
+      "badge": "Capacitación Virtual",
+      "iconClass": "fas fa-laptop-code",
+      "price": "194.700",
+      "rating": "4.9",
+      "link": "https://go.hotmart.com/E106059978T?dp=1"
+    },
+    {
+      "id": 5,
+      "title": "Mega Pack: Programación Básica + Avanzada",
+      "description": "Fundamentos prácticos aplicados al desarrollo de herramientas de optimización empresarial y financiera. Incluye 7 unidades con casos de estudio explicados en video.",
+      "category": "cursos",
+      "badge": "Curso Máster",
+      "iconClass": "fas fa-code-branch",
+      "price": "189.052",
+      "rating": "4.7",
+      "link": "https://go.hotmart.com/L106059984R?dp=1"
+    },
+    {
+      "id": 6,
+      "title": "Ciberseguridad de Cero a Experto en 30 Días",
+      "description": "Construye una base sólida en seguridad digital. Explora hardening, criptografía, firewalls, gestión de riesgos y arquitecturas Blue Team / Red Team a lo largo de 41 capítulos.",
+      "category": "recursos",
+      "badge": "E-Book Premium",
+      "iconClass": "fas fa-shield-halved",
+      "price": "38.909",
+      "rating": "5.0",
+      "link": "https://go.hotmart.com/H106059990B?dp=1"
+    },
+    {
+      "id": 7,
+      "title": "Auditoría de Dispositivos Móviles y Recuperación",
+      "description": "Aprende metodologías técnicas seguras para geolocalizar dispositivos extraviados en tiempo real, extraer contenido multimedia de soporte y recuperar accesos de forma remota.",
+      "category": "cursos",
+      "badge": "Curso Técnico",
+      "iconClass": "fas fa-mobile-alt",
+      "price": "486.847",
+      "rating": "4.6",
+      "link": "https://go.hotmart.com/K106059997M?dp=1"
+    },
+    {
+      "id": 8,
+      "title": "Tu Primer Empleado Virtual con IA",
+      "description": "Aprende a construir un agente inteligente que trabaje 24/7 en tu negocio conectando Telegram, N8N y Gemini AI de forma gratuita y sin saber programar.",
+      "category": "recursos",
+      "badge": "Guía de Automatización",
+      "iconClass": "fas fa-gears",
+      "price": "38.949",
+      "rating": "4.9",
+      "link": "https://go.hotmart.com/S106060001T?dp=1"
+    },
+    {
+      "id": 9,
+      "title": "Administración de Servidores Linux",
+      "description": "E-book enfocado en el despliegue técnico inicial, gestión avanzada de almacenamiento, usuarios y aseguramiento de servicios bajo entornos de servidores Linux.",
+      "category": "recursos",
+      "badge": "E-Book de Ingeniería",
+      "iconClass": "fas fa-terminal",
+      "price": "46.699",
+      "rating": "4.8",
+      "link": "https://go.hotmart.com/M106060006F?dp=1"
+    },
+    {
+      "id": 10,
+      "title": "Ansiedad Tecnológica: Recupera tu Enfoque",
+      "description": "Aprende a gestionar la sobrecarga de información del entorno digital. Una hoja de ruta con estrategias de bienestar emocional y un plan de 7 días para un detox consciente.",
+      "category": "recursos",
+      "badge": "E-Book Bienestar",
+      "iconClass": "fas fa-brain",
+      "price": "55.502",
+      "rating": "4.9",
+      "link": "https://go.hotmart.com/N106060008M?dp=1"
+    },
+    {
+      "id": 11,
+      "title": "Pack de Scripts Avanzados para Blogger",
+      "description": "Potencia tu plataforma gratuita con integraciones clave: optimización SEO avanzada, bloques publicitarios responsivos, ventanas emergentes por IP única y cajas de interacción.",
+      "category": "recursos",
+      "badge": "Scripts & Código",
+      "iconClass": "fas fa-code",
+      "price": "116.844",
+      "rating": "4.8",
+      "link": "https://go.hotmart.com/V106060020X?dp=1"
+    },
+    {
+      "id": 12,
+      "title": "Scripts de Alto Cierre: Guiones de Venta",
+      "description": "Un sistema profesional con estructuras lingüísticas reales orientadas a dominar objeciones, guiar la conversación con seguridad y maximizar el ratio de conversión en llamadas.",
+      "category": "recursos",
+      "badge": "Estructuras Comerciales",
+      "iconClass": "fas fa-comments-dollar",
+      "price": "20.000",
+      "rating": "4.9",
+      "link": "https://go.hotmart.com/O106060028Q?dp=1"
+    }
+  ]
+}
