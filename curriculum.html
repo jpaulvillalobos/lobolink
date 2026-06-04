@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planes de Hojas de Vida Premium | LoboLink Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/services_styles.css">
+    <link rel="icon" type="image/png" href="/images/logo_services.png">
+</head>
+<body>
+
+    <header class="services-header">
+        <div class="container header-flex">
+            <a href="services.html" class="logo-brand">
+                <img src="/images/logo_services.png" alt="LoboLink Services Logo" class="services-logo">
+            </a>
+            <nav class="services-nav">
+                <ul>
+                    <li><a href="#planes" class="nav-link active">Planes HV</a></li>
+                    <li><a href="#ventajas" class="nav-link">Ventajas ATS</a></li>
+                    <li><a href="services.html" class="btn-back-ecosystem"><i class="fa-solid fa-arrow-left"></i> Volver a Servicios</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="services-hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="services-badge">INGENIERÍA DEL PERFIL PROFESIONAL</span>
+                <h1>Hojas de Vida que <span class="text-gradient-orange">Superan los Filtros</span></h1>
+                <p>El 75% de los currículums son descartados por softwares de Inteligencia Artificial (ATS) antes de llegar a un humano. Optimizamos tu perfil con la estructura, el código visual y las palabras clave exactas que buscan las empresas.</p>
+                <div class="hero-cta">
+                    <a href="#planes" class="btn-services-primary">Ver Planes Disponibles</a>
+                    <a href="services.html#soporte" class="btn-services-secondary">Consultoría Express</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="/images/logo_services.png" alt="LoboLink Empleabilidad" class="services-floating-logo">
+            </div>
+        </div>
+    </section>
+
+    <section id="planes" class="solutions-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Elige tu Plan de Impulso Profesional</h2>
+                <p class="section-subtitle">Selecciona el nivel de optimización que requieres para tu perfil laboral. Modelos estructurados y listos para competir.</p>
+            </div>
+            
+            <div id="cv-planes-container" class="services-grid-layout">
+                <div class="services-loading">
+                    <i class="fa-solid fa-file-invoice fa-spin"></i>
+                    <p>Cargando configuraciones de planes desde curriculum_base.json...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ventajas" class="process-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">¿Por qué optimizar tu HV con Inteligencia Artificial?</h2>
+                <p class="section-subtitle">Diseño de vanguardia técnica adaptado a los estándares de reclutamiento modernos.</p>
+            </div>
+            <div class="process-steps-grid">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <h3>Compatibilidad ATS</h3>
+                    <p>Formateamos la metadata del documento para asegurar que los lectores de IA corporativos te califiquen con puntaje óptimo.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <h3>Palabras Clave de Impacto</h3>
+                    <p>Inyectamos términos técnicos precisos según tu área para destacar de forma inmediata ante algoritmos de selección.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <h3>Portafolio Interactiva</h3>
+                    <p>Si optas por el plan web, tu perfil estará disponible online 24/7 con código responsivo y velocidad de carga ultra rápida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="services-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="/images/logo_services.png" alt="LoboLink Services" class="footer-logo">
+                <p>Estructuras de alto rendimiento para tu crecimiento laboral.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Ecosistema LoboLink</h4>
+                <ul>
+                    <li><a href="shop.html"><span class="dot cyan"></span> LoboLink Shop</a></li>
+                    <li><a href="services.html" class="active-services"><span class="dot orange"></span> LoboLink Services</a></li>
+                    <li><a href="index.html"><span class="dot green"></span> LoboLink Agency</a></li>
+                </ul>
+            </div>
+            <div class="footer-status">
+                <h4>Estructura de Datos</h4>
+                <p id="cv-api-status"><span class="status-icon-orange pulse-orange"></span> Esperando origen: curriculum_base.json</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 LoboLink Services. Herramientas de optimización profesional y análisis de currículum.</p>
+        </div>
+    </footer>
+
+    <script src="js/cv.js"></script>
+</body>
+</html>

@@ -87,14 +87,14 @@
       "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20solicito%20informaci%C3%B3n%20para%20Publicaci%C3%B3n%20de%20HV%20Web%20con%20Portafolio"
     },
     {
-      "badge": "Filtro Asegurado",
-      "category": "curriculums",
-      "iconClass": "fas fa-brain",
-      "title": "Análisis de HV con Inteligencia Artificial",
-      "description": "Auditamos tu currículum actual utilizando herramientas avanzadas de IA. Detectamos fallas de lectura, optimizamos el perfil y mejoramos el impacto laboral.",
-      "price": "Evaluación",
-      "rating": "5.0",
-      "link": "https://wa.me/573017737163?text=Hola%20Lobolink%20Services,%20solicito%20un%20An%C3%A1lisis%20de%20mi%20HV%20con%20IA"
+  "badge": "Éxito Profesional",
+  "category": "curriculums",
+  "iconClass": "fas fa-file-invoice",
+  "title": "Creación de Hojas de Vida Optimizadas con IA",
+  "description": "Diseño y redacción estratégica de tu currículum adaptado con palabras clave precisas para superar los sistemas automatizados de reclutamiento (ATS) e IA.",
+  "price": "Servicio Digital",
+  "rating": "5.0",
+  "link": "curriculum.html" 
     },
     {
       "badge": "Core Networking",

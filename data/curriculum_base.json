@@ -1,0 +1,58 @@
+{
+  "cv_info": {
+    "brand": "LoboLink Career Studio",
+    "currency": "COP",
+    "main_contact": "+573017737163",
+    "last_update": "2026"
+  },
+  "planes": [
+    {
+      "id": 1,
+      "badge": "Plan Landing Page 'Reinicio'",
+      "title": "Plan Esencial (Desempleados / Primer Empleo)",
+      "description": "Diseñado para profesionales que buscan empleo de forma activa y necesitan destacar con urgencia. Transformamos tu currículum tradicional en una página web estática de una sola sección, dándote una presencia digital moderna, limpia y ultra rápida de compartir.",
+      "price": "COP $50.000",
+      "periodTag": "Infraestructura por 3 meses",
+      "features": [
+        "Creación de Landing Page sencilla y profesional (HTML/CSS).",
+        "Optimización de tu perfil profesional y experiencia con IA.",
+        "Código QR personalizado de alta definición listo para imprimir o compartir.",
+        "Despliegue en la nube mediante hosting gratuito de Netlify (tunombre.netlify.app).",
+        "Mantenimiento técnico y funcionamiento garantizado por 3 meses."
+      ],
+      "link": "https://wa.me/573017737163?text=Hola%20LoboLink%20Services,%20me%20interesa%20el%20Plan%20Esencial%20Reinicio%20para%20mi%20HV"
+    },
+    {
+      "id": 2,
+      "badge": "Plan Portafolio 'Evolución'",
+      "title": "Plan Profesional (Ascenso Laboral)",
+      "description": "Ideal para profesionales que se encuentran laborando actualmente pero buscan mejores oportunidades, un aumento de salario o un cambio de sector. Diseñamos un sitio web interactivo con animaciones avanzadas que demuestra tu trayectoria de forma impecable.",
+      "price": "COP $120.000",
+      "periodTag": "Infraestructura por 3 meses",
+      "features": [
+        "Estructura web avanzada con secciones (Sobre mí, Experiencia, Portafolio de proyectos).",
+        "Animaciones interactivas fluidas con JavaScript.",
+        "Optimización y retoque digital de tu fotografía corporativa mediante IA.",
+        "Integración y configuración DNS de un Dominio Personalizado corporativo (ej. www.tuapellido.com - gasto de compra del dominio no incluido).",
+        "Soporte, actualizaciones menores y funcionamiento en Netlify por 3 meses."
+      ],
+      "link": "https://wa.me/573017737163?text=Hola%20LoboLink%20Services,%20solicito%20el%20Plan%20Profesional%20Evoluci%C3%B3n%20para%20mi%20HV"
+    },
+    {
+      "id": 3,
+      "badge": "Plan Executive 'Impacto'",
+      "title": "Plan Premium (Elite & Emprendedores)",
+      "description": "El paquete definitivo para profesionales senior, consultores independientes o empleados que complementan su perfil con proyectos de emprendimiento. Creamos un ecosistema digital completo para monetizar tu conocimiento y captar la atención de cazadores de talentos VIP.",
+      "price": "COP $200.000",
+      "periodTag": "Ecosistema & Hosting Hostinger",
+      "features": [
+        "Sitio web corporativo completo de múltiples páginas e integración de links hacia tus emprendimientos.",
+        "Dominio personalizado y Hosting de alta velocidad en Hostinger totalmente configurados.",
+        "Rediseño y entrega de tu Hoja de Vida tradicional optimizada en formatos Word y PDF.",
+        "Beneficio exclusivo: 1 mes adicional de servicio y soporte técnico (4 meses en total de funcionamiento garantizado).",
+        "Aclaración importante: No se incluye el costo del dominio; este debe ser adquirido previamente por el usuario o este debe asumir el coste de su compra."
+      ],
+      "link": "https://wa.me/573017737163?text=Hola%20LoboLink%20Services,%20quiero%20el%20Plan%20Premium%20Executive%20Impacto"
+    }
+  ]
+}
