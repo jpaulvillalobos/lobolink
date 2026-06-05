@@ -55,5 +55,74 @@
       ],
       "link": "https://wa.me/573017737163?text=Hola%20LoboLink%20Services,%20quiero%20el%20Plan%20Premium%20Executive%20Impacto"
     }
+    
+  ],
+  "ejemplos_reseñas": [
+    {
+      "id": 1,
+      "nombre": "Jean",
+      "apellido": "Paul",
+      "estrellas": 5,
+      "badge": "Perfil TI Optimizado",
+      "reseña": "Excelente optimización. Mi perfil no lograba superar los filtros automatizados en las plataformas de empleo y, tras el rediseño técnico en formato web, logré captar la atención de tres reclutadores en la primera semana. La velocidad de carga y la estructura de palabras clave marcaron toda la diferencia.",
+      "imagen_qr": "https://i.postimg.cc/Kj6Q6WcV/jeanqr.png",
+      "link": "https://jpaulvilllalobos.netlify.app/"
+    },
+    {
+      "id": 2,
+      "nombre": "Cesar",
+      "apellido": "Enrique",
+      "estrellas": 5,
+      "badge": "Ingeniería de Perfil",
+      "reseña": "Estructura impecable y 100% compatible con sistemas ATS. Presentar mi hoja de vida a través de un ecosistema digital dinámico y con un código QR limpio me dio una ventaja competitiva enorme en las entrevistas directas. Un soporte técnico impecable por parte del equipo.",
+      "imagen_qr": "https://i.postimg.cc/0jTZT45B/cesarqr.png",
+      "link": "https://hv-cesar-bernal.netlify.app/index"
+    },
+    {
+      "id": 3,
+      "nombre": "Jorgue",
+      "apellido": "Leonardo",
+      "estrellas": 5,
+      "badge": "Despliegue Exitoso",
+      "reseña": "El cambio de formato tradicional a una estructura web optimizada con IA fue radical. El documento es limpio, lee perfectamente las etiquetas de mi experiencia en desarrollo y los reclutadores han destacado mucho la originalidad de acceder a mi portafolio mediante escaneo inmediato.",
+      "imagen_qr": "https://i.postimg.cc/sxkKkLfL/jorgeqr.png",
+      "link": "https://jorgue-torres-hv.netlify.app/"
+    }
+  ],"preguntas_frecuentes": [
+    {
+      "id": 1,
+      "pregunta": "¿Cómo es el proceso de solicitud y desarrollo de los sitios web?",
+      "respuesta": "Todos nuestros proyectos se realizan exclusivamente bajo pedido. Una vez elijas el plan, evaluamos tu perfil y requerimientos. Para iniciar el desarrollo en nuestros servidores, se debe realizar un pago inicial equivalente al 10% del valor del plan (no reembolsable por concepto de reserva de infraestructura y diseño inicial)."
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Cuáles son los tiempos de entrega para cada tipo de plan?",
+      "respuesta": "Nuestros tiempos de respuesta son ágiles: el Plan Básico (Landing) se entrega en un plazo máximo de 24 horas; el Plan Intermedio (Evolución) se entrega en 48 horas. Para el Plan Senior (Executive/Impacto), el tiempo se verifica directamente con el cliente tras evaluar el pedido, ya que al requerir mayor desarrollo técnico personalizado puede tomar días adicionales."
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Qué ocurre una vez se realiza la entrega del sitio web?",
+      "respuesta": "Una vez notificada la entrega del sitio web terminado y verificado por nuestro equipo, el cliente dispone de un plazo estricto de 2 horas para efectuar el pago del saldo restante. En caso de no reportarse el pago en este lapso, el sitio web será despublicado inmediatamente de internet por seguridad del código."
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Cómo solicito cambios durante el periodo de soporte técnico?",
+      "respuesta": "Toda solicitud de actualización o ajuste debe canalizarse obligatoriamente a través de nuestra línea oficial de WhatsApp en horarios laborales. El soporte cubre modificaciones de edición (corrección de textos existentes o cambio de fotografías). Solicitar elementos nuevos como botones adicionales, animaciones complejas o enlaces externos generará costos técnicos adicionales."
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Qué pasa cuando finaliza el tiempo de soporte contratado?",
+      "respuesta": "Cada plan incluye un tiempo de hosting y soporte garantizado (3 o 4 meses según el plan). Una vez terminado este periodo de soporte, el sitio web será dejado de publicar automáticamente. Si deseas mantener tu portafolio web activo en línea, deberás adquirir un plan de renovación técnica o renovación de hosting antes de la fecha de vencimiento."
+    },
+    {
+      "id": 6,
+      "pregunta": "¿El plan incluye un nombre de dominio personalizado en internet?",
+      "respuesta": "Para obtener un enlace personalizado (ej. tu-nombre.com), debes contar previamente con un dominio propio registrado a tu nombre o, en su defecto, asumir los costos comerciales de la compra del nuevo dominio. De lo contrario, los planes básico e intermedio se desplegarán bajo subdominios optimizados y gratuitos de Netlify (ej. tu-nombre.netlify.app)."
+    },
+    {
+      "id": 7,
+      "pregunta": "¿El Plan Senior admite integraciones de sistemas complejos o bases de datos?",
+      "respuesta": "El Plan Senior está diseñado para alto rendimiento estático y dinámico basado en archivos de datos ligeros tipo JSON. No incluye integraciones de APIS externas de pago, conexiones a bases de datos relacionales/complejas (SQL/NoSQL) ni interfaces de aplicaciones web avanzadas. Cualquiera de estos requerimientos de ingeniería de software puede cotizarse y realizarse por valores adicionales fuera del plan de hoja de vida."
+    }
   ]
 }

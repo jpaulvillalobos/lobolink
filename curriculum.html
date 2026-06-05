@@ -13,6 +13,7 @@
 </head>
 <body>
 
+    <!-- HEADER & NAVEGACIÓN ACTUALIZADA -->
     <header class="services-header">
         <div class="container header-flex">
             <a href="services.html" class="logo-brand">
@@ -21,13 +22,16 @@
             <nav class="services-nav">
                 <ul>
                     <li><a href="#planes" class="nav-link active">Planes HV</a></li>
+                    <li><a href="#ejemplos" class="nav-link">Ejemplos & Reseñas</a></li>
                     <li><a href="#ventajas" class="nav-link">Ventajas ATS</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
                     <li><a href="services.html" class="btn-back-ecosystem"><i class="fa-solid fa-arrow-left"></i> Volver a Servicios</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <!-- HERO -->
     <section class="services-hero">
         <div class="container hero-grid">
             <div class="hero-content">
@@ -45,6 +49,7 @@
         </div>
     </section>
 
+    <!-- SECCIÓN 1: PLANES DISPONIBLES -->
     <section id="planes" class="solutions-section">
         <div class="container">
             <div class="section-title-wrapper">
@@ -61,6 +66,25 @@
         </div>
     </section>
 
+    <!-- SECCIÓN 2: NUEVA CAJA DE EJEMPLOS Y RESEÑAS (BAJO LOS PLANES) -->
+    <section id="ejemplos" class="solutions-section" style="border-top: 1px solid rgba(255, 255, 255, 0.02); background-color: rgba(255, 102, 0, 0.01);">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Casos de Éxito y Reseñas Reales</h2>
+                <p class="section-subtitle">Observa ejemplos de perfiles optimizados por nuestro estudio y las calificaciones de los candidatos que ya consiguieron entrevistas.</p>
+            </div>
+            
+            <!-- Contenedor para inyectar los ejemplos y testimonios desde JSON -->
+            <div id="cv-reviews-container" class="services-grid-layout">
+                <div class="services-loading">
+                    <i class="fa-solid fa-comment-dots fa-bounce"></i>
+                    <p>Sincronizando ejemplos y bitácora de testimonios certificados...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 3: VENTAJAS ATS -->
     <section id="ventajas" class="process-section">
         <div class="container">
             <div class="section-title-wrapper">
@@ -87,6 +111,25 @@
         </div>
     </section>
 
+    <!-- SECCIÓN 4: NUEVA SECCIÓN DE PREGUNTAS FRECUENTES (FAQ) -->
+    <section id="faq" class="solutions-section" style="border-top: 1px solid rgba(255, 255, 255, 0.02);">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Preguntas Frecuentes (FAQ)</h2>
+                <p class="section-subtitle">Resolvemos tus dudas operativas sobre compatibilidad de archivos, tiempos de entrega y el funcionamiento del hosting.</p>
+            </div>
+
+            <!-- Contenedor para inyectar las preguntas frecuentes desde JSON -->
+            <div id="cv-faq-container" style="max-width: 850px; margin: 0 auto;">
+                <div class="services-loading">
+                    <i class="fa-solid fa-brain fa-pulse"></i>
+                    <p>Consultando base de conocimientos de Empleabilidad TI...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer class="services-footer">
         <div class="container footer-grid">
             <div class="footer-brand">
@@ -110,6 +153,9 @@
             <p>&copy; 2026 LoboLink Services. Herramientas de optimización profesional y análisis de currículum.</p>
         </div>
     </footer>
+
+    <!-- Botón de regreso rápido al menú de planes -->
+    <a href="#" style="position: fixed; bottom: 25px; right: 25px; background-color: var(--accent-orange); color: #fff; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.4); z-index: 999; transition: var(--transition-smooth);"><i class="fa-solid fa-arrow-up"></i></a>
 
     <script src="js/cv.js"></script>
 </body>
