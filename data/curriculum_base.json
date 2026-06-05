@@ -63,8 +63,8 @@
       "nombre": "Jean",
       "apellido": "Paul",
       "estrellas": 5,
-      "badge": "Perfil TI Optimizado",
-      "reseña": "Excelente optimización. Mi perfil no lograba superar los filtros automatizados en las plataformas de empleo y, tras el rediseño técnico en formato web, logré captar la atención de tres reclutadores en la primera semana. La velocidad de carga y la estructura de palabras clave marcaron toda la diferencia.",
+      "badge": "Analista de Soporte TI",
+      "reseña": "Necesitaba una forma diferente de presentar mi experiencia laboral. La página web quedó muy profesional y me permitió compartir mi perfil con reclutadores mediante un simple enlace o código QR. El resultado superó mis expectativas.",
       "imagen_qr": "https://i.postimg.cc/Kj6Q6WcV/jeanqr.png",
       "link": "https://jpaulvilllalobos.netlify.app/"
     },
@@ -73,8 +73,8 @@
       "nombre": "Cesar",
       "apellido": "Enrique",
       "estrellas": 5,
-      "badge": "Ingeniería de Perfil",
-      "reseña": "Estructura impecable y 100% compatible con sistemas ATS. Presentar mi hoja de vida a través de un ecosistema digital dinámico y con un código QR limpio me dio una ventaja competitiva enorme en las entrevistas directas. Un soporte técnico impecable por parte del equipo.",
+      "badge": "Ingeniero de Sistemas | Especialista en Redes & Ciberseguridad",
+      "reseña": "Antes solo enviaba mi hoja de vida en PDF. Ahora tengo un perfil digital que puedo compartir fácilmente en LinkedIn y durante los procesos de selección. La presentación es mucho más moderna y organizada.",
       "imagen_qr": "https://i.postimg.cc/0jTZT45B/cesarqr.png",
       "link": "https://hv-cesar-bernal.netlify.app/index"
     },
@@ -83,8 +83,8 @@
       "nombre": "Jorgue",
       "apellido": "Leonardo",
       "estrellas": 5,
-      "badge": "Despliegue Exitoso",
-      "reseña": "El cambio de formato tradicional a una estructura web optimizada con IA fue radical. El documento es limpio, lee perfectamente las etiquetas de mi experiencia en desarrollo y los reclutadores han destacado mucho la originalidad de acceder a mi portafolio mediante escaneo inmediato.",
+      "badge": "Especialista en Mantenimiento Locativo & Motores",
+      "reseña": "Me gustó mucho la forma en que organizaron mi experiencia y proyectos. El sitio es rápido, fácil de navegar y me ayuda a mostrar mi perfil profesional de una manera diferente a la mayoría de candidatos.",
       "imagen_qr": "https://i.postimg.cc/sxkKkLfL/jorgeqr.png",
       "link": "https://jorgue-torres-hv.netlify.app/"
     }
